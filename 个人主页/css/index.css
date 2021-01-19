@@ -1,0 +1,308 @@
+@font-face {
+    font-family: "全新硬笔行书简";
+    src: url("../font/全新硬笔行书简.eot");
+    src: url("../font/全新硬笔行书简.eot?#iefix") format('embedded-opentype'),
+         url("../font/全新硬笔行书简.woff") format('woff'),
+         url("../font/全新硬笔行书简.ttf") format('truetype'),
+         url("../font/全新硬笔行书简.svg"),
+         url("../font/全新硬笔行书简.otf");
+}
+#index div{
+    box-sizing: border-box;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: "全新硬笔行书简";
+}
+#menu #music img{
+    display: block;
+    position: absolute;
+    left: 16%;
+    top: 6px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: rotate 4s linear infinite normal;
+}
+#menu {
+    width: 100%;
+    height: 72px;
+    background-color: #323436;
+    position: relative;
+}
+
+#menu .nav {
+    position: absolute;
+    right: 2%;
+}
+
+#menu .nav li {
+    float: right;
+    position: relative;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 0 20px;
+    height: 72px;
+    line-height: 72px;
+    display: block;
+    color: #aaa;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    background-color: #212325;
+    /*color: #3da2d3;*/
+    color: white;
+}
+/*nav结束*/
+#content_1 {
+    width: 100%;
+    /*height: 650px;*/
+    background-color: #454d69;
+    text-align: center;
+    /*display: none;*/
+}
+#content_1 #id{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 10px;
+    font-family: "全新硬笔行书简";
+}
+#content_1 #underline {
+    box-sizing: content-box;
+    display: block;
+    margin: 10px auto;
+    width: 399px;
+    font-size: 20px;
+    height: 194px;
+    text-align: center;
+    padding-top: 14px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+#content_1 #underline p{
+    margin-bottom: 10px;
+}
+#content_1 .ico img {
+    height: 150px;
+    display: inline-block;
+    margin-top: 35px;
+    border-radius: 50%;
+}
+.content_1_1{
+    width: 1000px;
+    height: 450px;
+    margin: 0 auto;
+}
+#describe{
+    font-size: 28px;
+    width: 1000px;
+    height: 60px;
+    margin: 55px auto;
+    line-height: 60px;
+}
+#describe #school{
+    padding-left: 209px;
+    padding-right: 209px;
+}
+/*content_1结束*/
+#content_2 {
+    width: 100%;
+    background-color: #83ffbe;
+    display: none;
+    text-align: center;
+}
+#content_2 #table{
+    margin: 60px auto;
+    display: inline-block;
+    width:900px;
+    height: 450px;
+}
+#content_2 table{
+    border: 2px solid red;
+    border-collapse: collapse;
+    width:100%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+#content_2 th,td{
+    border: 2px solid red;
+}
+#content_2 table #cap{
+    font-size: 48px;
+    color: red;
+    padding-bottom: 10px;
+}
+/*content_2结束*/
+#content_3 {
+    width: 100%;
+    background-color: #454d69;
+    background-image: url("../img/bgColor.jpg");
+    display: none;
+}
+#content_3 #content_3_love{
+    width: 975px;
+    height: 210px;
+    margin: 0 auto;
+}
+#content_3 .img_love{
+    width: 975px;
+    height: 300px;
+    margin: 15px auto;
+    position: relative;
+}
+#content_3 .img_1{
+    width: 170px;
+    height: 170px;
+    background: url("../img/bg_jn.png") no-repeat 0px -41px;
+    position: absolute;
+    left: 0px;
+    top: 15px;
+}
+#content_3 .img_2{
+    width: 170px;
+    height: 170px;
+    background: url("../img/bg_jn.png") no-repeat 0px -250px;
+    position: absolute;
+    left: 268px;
+    top: 15px;
+}
+#content_3 .img_3{
+    width: 170px;
+    height: 170px;
+    background: url("../img/bg_jn.png") no-repeat 0px -458px;
+    position: absolute;
+    left: 538px;
+    top: 15px;
+}
+#content_3 .img_4{
+    width: 170px;
+    height: 170px;
+    background: url("../img/bg_jn.png") no-repeat 0px -667px;
+    position: absolute;
+    right: 0px;
+    top: 15px;
+}
+#content_3 .img_content{
+    position: absolute;
+    bottom: 15px;
+    font-size: 60px;
+}
+#content_3 .img_content1{
+    padding-left: 53px;
+}
+#content_3 .img_content2{
+    padding-left: 192px;
+}
+#content_3 .img_content3{
+    padding-left: 201px;
+}
+#content_3 .img_content4{
+    padding-left: 191px;
+}
+#content_3 #love{
+    color: blue;
+    font-size: 42px;
+    text-align: center;
+    padding-top: 90px;
+    font-family: "全新硬笔行书简";
+}
+#content_3 li{
+    text-align: center;
+}
+#content_3 .dot{
+    margin-top: 19px;
+}
+#content_3 .dot i{
+    margin-top: 5px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    color: #556fff;
+    background-color: #556fff;
+    border-radius: 50%;
+}
+#content_3 .dot_1 i{
+    animation: scale  0.4s linear 0s infinite alternate;
+}
+#content_3 .dot_2 i{
+    animation: scale  0.4s linear 0.2s infinite alternate;
+}
+#content_3 .dot_3 i{
+    animation: scale  0.4s linear 0.4s infinite alternate;
+}
+/*content_3结束*/
+#content_4{
+    width: 100%;
+    /*height: 650px;*/
+    text-align: center;
+    background-color: #ebfbff;
+    display: none;
+}
+#content_4 .introduce{
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 65px;
+}
+#content_4 span{
+    display: inline-block;
+    line-height: 82px;
+    font-size: 50px;
+}
+#content_4 .public{
+    width: 590px;
+    height: 82px;
+    background-color: red;
+    border-radius: 18px;
+}
+#content_4 .relation_1{
+    margin-top: 50px;
+}
+#content_4 .relation_2{
+    margin-top: 20px;
+}
+#content_4 .relation_3{
+    margin-top: 20px;
+}
+#content_4 .dot i{
+    margin-top: 5px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    color: #556fff;
+    background-color: #556fff;
+    border-radius: 50%;
+}
+#content_4 .dot_1 i{
+    animation: scale  0.4s linear 0s infinite alternate;
+}
+#content_4 .dot_2 i{
+    animation: scale  0.4s linear 0.2s infinite alternate;
+}
+#content_4 .dot_3 i{
+    animation: scale  0.4s linear 0.4s infinite alternate;
+}
+/*content_4结束*/
+/*动画属性添加*/
+@keyframes scale {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

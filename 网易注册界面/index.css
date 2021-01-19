@@ -1,0 +1,146 @@
+.header {
+  position: relative;
+  height: 60px;
+  line-height: 60px;
+}
+
+.header .logo {
+  width: 373px;
+  display: inline-block;
+  margin-left: 32px;
+}
+
+.header .border {
+  margin-left: 40px;
+  margin-right: 28px;
+  font-size: 13px;
+}
+
+.header span {
+  font-size: 14px;
+}
+
+.header .right span {
+  margin: 0 5px;
+}
+
+.header .right {
+  position: absolute;
+  top: 0;
+  right: 5%;
+}
+
+.header .right .message {
+  height: 13px;
+  position: absolute;
+  top: 28px;
+}
+
+html, body {
+  width: 100%;
+  background: url("images/background-img.png") no-repeat center -480px;
+  background-size: cover;
+  height: 100%;
+}
+
+.login_w {
+  padding-top: 80px;
+}
+
+#form {
+  height: 400px;
+  position: relative;
+  text-align: center;
+}
+
+.container input {
+  height: 46px;
+  box-sizing: border-box;
+  border: 1px solid #cbcbcb;
+  border-radius: 3px;
+  padding: 11px 0 10px 16px;
+  font-size: 16px;
+  width: 410px;
+}
+
+.username {
+  padding-right: 131px;
+}
+.span{
+  font-size: 16px;
+  color: #343434;
+  position: absolute;
+  right: 315px;
+  top: 151px;
+}
+input::-webkit-input-placeholder {
+  color: #aab2bd;
+  font-size: 15px;
+}
+
+.login_w .email {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 46px;
+  display: flex;
+  width: 410px;
+  height: 46px;
+}
+
+.login_w .email div {
+  flex: 1;
+}
+
+.login_w .email div:nth-child(1) {
+  background-color: #fff;
+}
+
+.login_w .email div:nth-child(2) {
+  background: #f0f4ff url("images/discount.png") no-repeat center right;
+}
+
+.tip {
+  font-size: 30px;
+  font-weight: 400;
+  color: #333;
+  margin: 0 auto;
+  width: 410px;
+  height: 46px;
+  text-align: left;
+}
+
+.login_w .button input {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  padding-left: 40px;
+  border: 1px solid #cbcbcb;
+  margin-right: 10px;
+}
+
+.login_w .button span {
+  font-size: 14px;
+  color: #adadad;
+}
+
+.login_w .button {
+  text-align: left;
+  padding-left: 289px;
+}
+
+.login_w .submit {
+  text-align: center;
+  color: #fff;
+  padding: 0;
+  height: 48px;
+  background: #3b78dd;
+  font-size: 22px;
+}
+
+.footer {
+  height: 20px;
+  padding-top: 140px;
+  text-align: center;
+  font-size: 12px;
+}

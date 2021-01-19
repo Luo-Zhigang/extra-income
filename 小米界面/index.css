@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #666666;
+}
+.search{
+    width: 278px;
+    height: 33px;
+    margin-top: 8px;
+    padding-left: 8px;
+    outline: none;
+    border: solid 1px #b0b0b0;
+}
+.banner{
+    width: 1320px;
+    height: 437px;
+    margin: 10px auto;
+    position: relative;
+    border-radius: 10px;
+}
+.bg{
+    width: 1090px;
+    height: 437px;
+    float: right;
+    background: url("img/banner.jpg") no-repeat;
+    background-size: cover;
+    border-radius: 0 8px 8px 0/0 8px 8px 0;
+}
+.aside{
+    width: 230px;
+    height: 437px;
+    background-color: #000000;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px 0 0 8px/8px 0 0 8px;
+}
+.nav img{
+    position: absolute;
+    top: 13px;
+    width: 29px;
+    left: 721px;
+}
+.nav{
+    width: 1320px;
+    height: 50px;
+    background: #b0b0b0;
+    margin: 20px auto;
+    border-radius: 8px;
+    position: relative;
+}
+.nav ul{
+    float: left;
+}
+.nav ul a:hover{
+    color: #ffffff;
+}
+.nav li{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    color: red;
+    padding: 0 17px;
+    font-weight: bold;
+}
+.aside ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.aside li{
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    padding-left: 25px;
+    color: white;
+    margin-bottom: 18px;
+    position: relative;
+}
+.aside li:hover{
+    background-color: orange;
+}

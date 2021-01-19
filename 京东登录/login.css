@@ -1,0 +1,207 @@
+.login_w{
+    background-color: white;
+    height: 92px;
+}
+.l_login{
+    float: left;
+    padding-top: 22px;
+}
+.r_login{
+    float: right;
+    padding-top: 65px;
+    position: relative;
+}
+.r_login b{
+    width: 18px;
+    height: 14px;
+    display: block;
+    background: url("images/q-icon.png") no-repeat;
+    position: absolute;
+    left: -22px;
+    bottom: -1px;
+}
+.l_login a{
+    width: 170px;
+    height: 60px;
+    display: inline-block;
+    background: url("images/logo-201305-b.png") no-repeat;
+    text-indent: -2000px;
+    vertical-align: bottom;
+}
+.l_login b{
+    width: 110px;
+    height: 40px;
+    display: inline-block;
+    background: url("images/l-icon.png") no-repeat;
+    vertical-align: bottom;
+}
+.text{
+    height: 35px;
+    background-color: #fff8f0;
+    line-height: 35px;
+    text-align: center;
+    position: relative;
+}
+.text b{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("images/icon-tips.png") no-repeat;
+    position: absolute;
+    left: 268px;
+    top: 9px;
+}
+.main_content{
+    width: 100%;
+    height: 510px;
+    background-color: #e93854;
+}
+.main_content .login_w{
+    height: 475px;
+    background: url("images/登录背景.png") no-repeat;
+}
+.main_content .form{
+    width: 346px;
+    height: 400px;
+    box-sizing: border-box;
+    background-color: #fff;
+    float: right;
+    margin-top: 10px;
+}
+.main_content .form_text{
+    height: 38px;
+    background-color: #fff8f0;
+    line-height: 38px;
+    padding-left: 50px;
+    position: relative;
+}
+.main_content .form_text b{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url("images/icon-tips.png") no-repeat;
+    position: absolute;
+    top: 11px;
+    left: 30px;
+}
+.main_content .top{
+    height: 54px;
+    line-height: 54px;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+.main_content .top a{
+    flex: 1;
+    font-size: 18px;
+    font-weight: 700;
+    border-right: 1px solid #ccc;
+}
+.main_content .top .one{
+    border-right: none;
+}
+.form .middle{
+    padding-top: 33px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.form .middle .public{
+    width: 304px;
+    height: 38px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.form  .inputs {
+    position: relative;
+}
+.form .middle  span {
+    display: block;
+    width: 36px;
+    height: 36px;
+    border-right: 1px solid #ccc;
+    background-color: #f3f3f3;
+    position: absolute;
+}
+.form .middle  .user_img {
+    top: 1px;
+    left: 1px;
+    background: url("images/pwd-icons-new.png") no-repeat;
+}
+.form .middle .pwd_img {
+    top: 59px;
+    left: 1px;
+    background: url("images/pwd-icons-new.png") no-repeat -48px 0px;
+}
+.inputs a {
+    float: right;
+}
+.inputs .btn {
+    width: 100%;
+    height: 36px;
+    background-color: #e4393c;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.bottom {
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    height: 55px;
+    line-height: 55px;
+    color: #cccccc;
+}
+.qq,.wx{
+    display: inline-block;
+    width: 70px;
+    height: 55px;
+    padding-left: 35px;
+    box-sizing: border-box;
+}
+.bottom a {
+    position: relative;
+}
+.qq b {
+    width: 19px;
+    height: 18px;
+    display: block;
+    background: url("images/QQ-weixin.png") no-repeat;
+    position: absolute;
+    top: 18px;
+    left: 13px;
+}
+.wx b{
+    width: 19px;
+    height: 18px;
+    display: block;
+    background: url("images/QQ-weixin.png") no-repeat right;
+    position: absolute;
+    top: 18px;
+    left: 13px;
+}
+.bottom .register{
+    margin-left: 120px;
+    font-size: 15px;
+}
+.bottom .register b{
+    width: 19px;
+    height: 18px;
+    display: block;
+    background: url("images/pwd-icons-new.png") no-repeat -104px -75px;
+    position: absolute;
+    top: 2px;
+    left: -20px;
+}
+.footer {
+    text-align: center;
+    padding-top: 20px;
+}
+.footer  a {
+    padding: 0 10px;
+}
+.footer .copyright{
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
